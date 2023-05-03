@@ -88,7 +88,7 @@ class Circle {
         refillBtn.disabled = false;
       } else {
         myMarker.inkLevel -= inkUsed;
-        alert(`Ink level: ${myMarker.inkLevel}%`);
+        alert(`Рівень маркеру: ${myMarker.inkLevel}%`);
         txtItem.style.color = myMarker.color;
       }
     }
