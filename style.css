@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    padding: 30px 0;
+}
+section {
+    min-height: 50px;
+}
+section:not(:last-child) {
+    margin-bottom: 30px;
+}
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
